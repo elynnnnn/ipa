@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan AMDAL - Pantai Monumen Balikpapan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f1f5f9; color: #334155; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(20, 184, 166, 0.1); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05); }
+        .gradient-teal { background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%); color: white; }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; box-shadow: 0 20px 40px -15px rgba(20, 184, 166, 0.2); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-teal-50/50">
+        <div class="absolute inset-0 z-0">
+            <img src="WhatsApp Image 2026-05-04 at 09.34.11.jpeg" alt="Pantai Monumen Overview" class="w-full h-full object-cover opacity-25">
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-100 via-transparent to-slate-100"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="px-4 py-2 rounded-full bg-teal-100 border border-teal-200 text-teal-700 text-xs font-bold tracking-widest uppercase mb-6 inline-block">Dokumen AMDAL 2026</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-slate-800">Analisis Strategis <br><span class="text-teal-600">Pantai Monumen</span></h1>
+                <p class="text-slate-600 text-lg mb-8 leading-relaxed">Evaluasi mendalam terhadap dampak pembangunan, aktivitas sosial, dan pelestarian ekosistem pesisir di kawasan ikonik Kota Balikpapan.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#tabel" class="gradient-teal px-8 py-4 rounded-2xl font-bold shadow-lg shadow-teal-500/20 hover:scale-105 transition">Matriks Solusi</a>
+                    <a href="#galeri" class="bg-white border border-teal-100 px-8 py-4 rounded-2xl font-bold text-teal-800 hover:bg-teal-50 transition shadow-sm">Lihat Dokumentasi</a>
+                </div>
+            </div>
+            <div class="hidden lg:block relative">
+                <img src="gambar/dokumentasi_3.jpeg" class="rounded-[40px] shadow-2xl border-8 border-white -rotate-2 hover:rotate-0 transition duration-500 w-full object-cover aspect-[4/5]" alt="Situs Monumen">
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-20">
+
+        <!-- Analisis Dampak Section -->
+        <section id="analisis" class="mb-32">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 text-slate-800">Evaluasi Dampak Lingkungan</h2>
+                <div class="w-20 h-1.5 bg-teal-500 mx-auto rounded-full mb-4"></div>
+                <p class="text-slate-500">Memetakan pengaruh positif dan negatif terhadap kawasan sekitar.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass p-10 rounded-[32px] border-b-4 border-emerald-500 card-hover">
+                    <h3 class="text-2xl font-bold mb-6 flex items-center gap-3 text-emerald-700">
+                        <i class="fas fa-leaf"></i> Dampak Positif
+                    </h3>
+                    <ul class="space-y-4 text-slate-600">
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-emerald-500 mt-1"></i> Stimulasi ekonomi lokal bagi UMKM Balikpapan.</li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-emerald-500 mt-1"></i> Revitalisasi situs sejarah & edukasi publik.</li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-emerald-500 mt-1"></i> Penguatan Ruang Terbuka Hijau (RTH) kota.</li>
+                    </ul>
+                </div>
+
+                <div class="glass p-10 rounded-[32px] border-b-4 border-orange-400 card-hover">
+                    <h3 class="text-2xl font-bold mb-6 flex items-center gap-3 text-orange-700">
+                        <i class="fas fa-exclamation-triangle"></i> Dampak Negatif
+                    </h3>
+                    <ul class="space-y-4 text-slate-600">
+                        <li class="flex gap-3"><i class="fas fa-times-circle text-orange-400 mt-1"></i> Peningkatan volume limbah domestik.</li>
+                        <li class="flex gap-3"><i class="fas fa-times-circle text-orange-400 mt-1"></i> Penurunan kualitas air laut di bibir pantai.</li>
+                        <li class="flex gap-3"><i class="fas fa-times-circle text-orange-400 mt-1"></i> Kendala kemacetan di akses parkir.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabel Masalah & Solusi -->
+        <section id="tabel" class="mb-32">
+            <h2 class="text-3xl font-bold mb-10 text-slate-800">Matriks Masalah & Solusi</h2>
+            <div class="overflow-hidden glass rounded-[32px] border border-teal-100">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-teal-600 text-white text-xs font-bold uppercase tracking-widest">
+                        <tr>
+                            <th class="p-6">Aspek Terpengaruh</th>
+                            <th class="p-6">Identifikasi Masalah</th>
+                            <th class="p-6">Solusi & Tindakan</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-slate-600 text-sm">
+                        <tr class="border-b border-teal-50 hover:bg-teal-50/30">
+                            <td class="p-6 font-bold text-slate-800">Kawasan Sejarah</td>
+                            <td class="p-6">Kerusakan fisik struktur prasasti.</td>
+                            <td class="p-6">Restorasi rutin & pagar pembatas inti.</td>
+                        </tr>
+                        <tr class="border-b border-teal-50 hover:bg-teal-50/30">
+                            <td class="p-6 font-bold text-slate-800">Kebersihan</td>
+                            <td class="p-6">Sampah plastik di area taman.</td>
+                            <td class="p-6">Tempat sampah pilah & patroli harian.</td>
+                        </tr>
+                        <tr class="hover:bg-teal-50/30">
+                            <td class="p-6 font-bold text-slate-800">Limbah Cair</td>
+                            <td class="p-6">Potensi limbah dari unit kafe.</td>
+                            <td class="p-6">Penerapan sistem IPAL komunal/mandiri.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Galeri -->
+        <section id="galeri" class="mb-32">
+            <h2 class="text-3xl font-bold mb-10 text-center text-slate-800">Dokumentasi Lapangan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg border-4 border-white">
+                    <img src="gambar/dokumentasi_1.jpeg" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500" alt="Monumen">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-teal-900/80 p-6 text-white text-center font-bold">Struktur Ikonik Monumen</div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg border-4 border-white">
+                    <img src="gambar/gaambar_5.jpeg" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500" alt="Taman">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-teal-900/80 p-6 text-white text-center font-bold">Analisis Ruang Terbuka Hijau</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rencana Tindakan -->
+        <section class="gradient-teal p-12 rounded-[48px] shadow-2xl shadow-teal-900/20 relative overflow-hidden">
+            <div class="relative z-10 grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Tindakan Strategis</h2>
+                    <p class="text-teal-50 leading-relaxed mb-6">Langkah nyata untuk menjaga kelestarian Pantai Monumen sebagai aset Kota Balikpapan.</p>
+                    <i class="fas fa-clipboard-check text-8xl opacity-20"></i>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-white/10 p-6 rounded-3xl backdrop-blur-md border border-white/20">
+                        <h4 class="font-bold text-teal-100 mb-2 uppercase text-xs">Jangka Pendek</h4>
+                        <p class="text-sm">Pembersihan garis pantai intensif & perbaikan fasilitas publik segera.</p>
+                    </div>
+                    <div class="bg-white/10 p-6 rounded-3xl backdrop-blur-md border border-white/20">
+                        <h4 class="font-bold text-teal-100 mb-2 uppercase text-xs">Jangka Panjang</h4>
+                        <p class="text-sm">Sistem IPAL terpadu & perluasan zona hijau sebagai benteng abrasi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-20 bg-slate-200/50 border-t border-slate-300 text-center">
+        <div class="mb-10 font-bold tracking-tighter text-3xl uppercase text-teal-800">
+            Pantai <span class="text-teal-600">Monumen</span>
+        </div>
+        
+        <div class="max-w-2xl mx-auto px-6">
+            <div class="bg-white p-8 rounded-[32px] border border-teal-100 shadow-sm">
+                <h3 class="text-teal-600 font-bold uppercase tracking-widest text-xs mb-6 underline decoration-teal-200 underline-offset-8">Disusun Oleh Kelompok</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-700 font-semibold italic">
+                    <div class="p-3 bg-teal-50/50 rounded-xl">Nailah Putri</div>
+                    <div class="p-3 bg-teal-50/50 rounded-xl">Chairunnisa Puteri</div>
+                    <div class="p-3 bg-teal-50/50 rounded-xl">Rajab Dimas Rahardjo</div>
+                    <div class="p-3 bg-teal-50/50 rounded-xl">Azka Ukail Bahri</div>
+                </div>
+            </div>
+        </div>
+        <p class="mt-12 text-slate-400 text-xs font-mono uppercase tracking-widest">AMDAL Pantai Monumen &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
